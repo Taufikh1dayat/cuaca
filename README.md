@@ -1,81 +1,48 @@
-Weather App - Real-Time Weather Forecast 🌦️
-Aplikasi Website untuk menampilkan informasi cuaca secara real-time di seluruh daerah menggunakan API OpenWeather. Dibangun dengan desain yang responsif dan user-friendly agar pengguna merasa nyaman saat mengaksesnya.
+🌤️ Aplikasi Website Cuaca
+📌 Deskripsi
+Aplikasi ini menampilkan informasi cuaca untuk semua daerah dengan data yang diperoleh dari API OpenWeather. Dirancang dengan antarmuka yang nyaman dan intuitif, aplikasi ini membantu pengguna dengan mudah mengetahui kondisi cuaca di berbagai lokasi.
 
-Fitur Utama ✨
-✅ Pencarian Cuaca per Kota
-✅ Info Cuaca Lengkap (Suhu, Kelembapan, Angin, dll)
-✅ Tampilan Visual Cuaca (Icon Dinamis)
-✅ Mode Gelap/Terang
-✅ Responsif (Desktop, Tablet, Mobile)
-✅ Penyimpanan Riwayat Pencarian
+🚀 Fitur Utama
+🔍 Pencarian Kota: Pengguna dapat mencari cuaca berdasarkan nama kota.
 
-Teknologi yang Digunakan 🛠️
-Frontend: HTML, CSS, JavaScript (React/Vue.js)
+🌡️ Informasi Cuaca: Menampilkan suhu, kelembapan, kecepatan angin, dan kondisi cuaca lainnya.
 
-Backend: Node.js (Express) (Opsional)
+🎨 Desain Nyaman: Antarmuka ramah pengguna dengan tampilan modern dan responsif.
 
-API: OpenWeatherMap
+📍 Deteksi Lokasi: Opsi untuk menampilkan cuaca berdasarkan lokasi pengguna secara otomatis.
 
+🛠️ Teknologi yang Digunakan
+Frontend: HTML, CSS, JavaScript
 
-Cara Install & Menjalankan ⚙️
-1. Clone Repository
-bash
+API: OpenWeather API
+
+Framework (Opsional): React.js / Vue.js (jika digunakan)
+
+📌 Cara Instalasi dan Menjalankan
+Clone repositori:
+
+sh
 Copy
-git clone https://github.com/username/weather-app.git
-cd weather-app
-2. Dapatkan API Key dari OpenWeather
-Daftar di OpenWeather
+Edit
+git clone https://github.com/username/nama-proyek.git
+cd nama-proyek
+Install dependencies (jika menggunakan framework):
 
-Dapatkan API Key Gratis (untuk 60 request/min)
-
-3. Setup Environment
-Buat file .env dan masukkan API Key:
-
-env
+sh
 Copy
-OPENWEATHER_API_KEY=your_api_key_here
-4. Install Dependencies & Jalankan
-bash
+Edit
+npm install
+Buat akun di OpenWeather dan dapatkan API Key.
+
+Simpan API Key dalam file .env atau tambahkan langsung dalam kode.
+
+Jalankan aplikasi:
+
+sh
 Copy
-npm install  # Install dependencies
-npm start   # Jalankan di localhost:3000
-Screenshot Tampilan 📸
-Desktop	Mobile
-Desktop	Mobile
-Desain UI/UX 🎨
-Warna Dominan: Biru (Tenang & Informatif)
+Edit
+npm start
+Buka browser dan akses http://localhost:3000.
 
-Animasi: Transisi halus & efek hover
-
-Font: Google Fonts (Poppins, Roboto)
-
-Ikon: Font Awesome
-
-Contoh Respons API 🌐
-json
-Copy
-{
-  "city": "Jakarta",
-  "temp": 28.5,
-  "humidity": 78,
-  "wind_speed": 5.2,
-  "weather": "Cloudy",
-  "icon": "04d"
-}
-Roadmap Pengembangan 🚀
-Tambahkan Prediksi Cuaca 5 Hari
-
-Integrasi Maps (Google Maps API)
-
-Notifikasi Cuaca Ekstrem
-
-Cara Berkontribusi 🤝
-Fork repository
-
-Buat branch baru (git checkout -b fitur-baru)
-
-Commit perubahan (git commit -m "Tambahkan fitur X")
-
-Push ke branch (git push origin fitur-baru)
-
-Buat Pull Request
+🔗 Kontribusi
+Jika ingin berkontribusi, silakan fork repositori ini dan buat pull request!
